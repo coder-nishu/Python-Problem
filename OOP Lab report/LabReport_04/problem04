@@ -1,0 +1,15 @@
+#4.. Transpose Matrix: Write a Python program to transpose a given matrix represented as a nested list.
+lists = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+rows = len(lists)
+cols = len(lists[0])
+transpose_list = []
+for i in range(rows):
+    new = []
+    for j in range(cols):
+        new.append(lists[j][i])
+    transpose_list.append(new)
+print(transpose_list)

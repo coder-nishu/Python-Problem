@@ -1,0 +1,4 @@
+for i in range(rows-1,-1,-1):
+#     for j in range(cols-1,-1,-1):
+#         print(lists[i][j],end = " ")
+#     print("")
